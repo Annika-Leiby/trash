@@ -1,0 +1,20 @@
+---
+title: "practice"
+author: "Annika Leiby"
+date: "1/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(data= starwars, aes(x = mass, y = height)) +
+  geom_point()
+```
+
