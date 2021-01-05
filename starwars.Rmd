@@ -15,6 +15,6 @@ library(tidyverse)
 
 ```{r}
 ggplot(data= starwars, aes(x = mass, y = height)) +
-  geom_line()
+  geom_point()
 ```
 
